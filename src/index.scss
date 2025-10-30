@@ -1,0 +1,55 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+select,
+input[type="text"] {
+  font: inherit;
+  padding: 0.5rem 1rem;
+  min-width: 10rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+// fake carbon
+.carbon {
+  &-accordion {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #000;
+  }
+}
